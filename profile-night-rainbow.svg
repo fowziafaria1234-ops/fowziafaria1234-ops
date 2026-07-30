@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="260" viewBox="0 0 1000 260" role="img" aria-label="3D contribution graph placeholder">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#881337"/><stop offset=".5" stop-color="#e11d48"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs>
+  <rect width="1000" height="260" rx="24" fill="#fff1f5"/>
+  <g transform="translate(90,70)">
+    <g fill="url(#g)" opacity=".88">
+      <rect x="0" y="90" width="42" height="48" rx="7"><animate attributeName="height" values="48;90;48" dur="3s" repeatCount="indefinite"/><animate attributeName="y" values="90;48;90" dur="3s" repeatCount="indefinite"/></rect>
+      <rect x="60" y="70" width="42" height="68" rx="7"><animate attributeName="height" values="68;118;68" dur="3.5s" repeatCount="indefinite"/><animate attributeName="y" values="70;20;70" dur="3.5s" repeatCount="indefinite"/></rect>
+      <rect x="120" y="48" width="42" height="90" rx="7"><animate attributeName="height" values="90;55;90" dur="2.8s" repeatCount="indefinite"/><animate attributeName="y" values="48;83;48" dur="2.8s" repeatCount="indefinite"/></rect>
+      <rect x="180" y="25" width="42" height="113" rx="7"><animate attributeName="height" values="113;78;113" dur="4s" repeatCount="indefinite"/><animate attributeName="y" values="25;60;25" dur="4s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+  <text x="390" y="108" font-family="Segoe UI,Arial" font-size="31" font-weight="700" fill="#881337">3D contribution garden</text>
+  <text x="390" y="150" font-family="Segoe UI,Arial" font-size="20" fill="#6b7280">Run the included GitHub Action after upload.</text>
+  <text x="390" y="184" font-family="Segoe UI,Arial" font-size="18" fill="#e11d48">This placeholder will be replaced automatically.</text>
+</svg>
