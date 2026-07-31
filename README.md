@@ -1,55 +1,58 @@
 <div align="center">
 
-<img width="100%" src="./assets/faria-data-banner.svg" alt="Faria Islam — Junior Data Analyst" />
+<img width="100%" src="./assets/faria-data-banner.svg" alt="Faria Islam — Junior Data Analyst portfolio banner" />
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=21&pause=1000&color=E11D48&center=true&vCenter=true&width=850&lines=Junior+Data+Analyst+based+in+Sheffield+%F0%9F%93%8D;SQL+%E2%80%A2+Power+BI+%E2%80%A2+Excel+%E2%80%A2+Python;Data+Quality+%E2%80%A2+KPI+Dashboards+%E2%80%A2+Insight+Reporting;Microsoft+Azure+Data+%26+AI+Certified+%E2%98%81%EF%B8%8F;Turning+complex+data+into+clear+decisions+%F0%9F%8C%B9" alt="Typing introduction" /></a>
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&pause=1100&color=2DD4BF&center=true&vCenter=true&width=900&lines=Junior+Data+Analyst+based+in+Sheffield+%F0%9F%93%8D;SQL+%E2%80%A2+Power+BI+%E2%80%A2+Excel+%E2%80%A2+Python;Building+reliable+KPI+reporting+and+clear+business+insight;Microsoft+Azure+Data+%26+AI+Certified+%E2%98%81%EF%B8%8F"
+    alt="Animated introduction"
+  />
+</a>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Faria_Islam-E11D48?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faria-islam-1a2338349)
-[![Email](https://img.shields.io/badge/Email-Let's_Connect-EC4899?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fowziafaria1234@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-881337?style=for-the-badge&logo=githubpages&logoColor=white)](https://fowziafaria1234-ops.github.io/fowziafaria1234-ops/)
-
-<img src="https://komarev.com/ghpvc/?username=fowziafaria1234-ops&label=Profile%20views&color=e11d48&style=flat" alt="Profile views" />
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Faria_Islam-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/faria-islam-1a2338349)
+[![Email](https://img.shields.io/badge/Email-Let's_Connect-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:fowziafaria1234@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-0F766E?style=for-the-badge&logo=githubpages&logoColor=white)](https://fowziafaria1234-ops.github.io/fowziafaria1234-ops/)
+[![Profile views](https://komarev.com/ghpvc/?username=fowziafaria1234-ops&label=Profile+views&color=0ea5a4&style=for-the-badge)](https://github.com/fowziafaria1234-ops)
 
 </div>
 
 ---
 
-## 🌹 About Me
+## 👋 About Me
 
-```yaml
-name: Faria Islam
-role: Junior Data Analyst
-location: Sheffield, United Kingdom
-focus:
-  - Data quality and validation
-  - KPI and management-information reporting
-  - Dashboard development and visual storytelling
-core_stack: [SQL, Power BI, Excel, Python]
-python_stack: [Pandas, NumPy, Matplotlib, Seaborn]
-analytics: [EDA, Statistical Analysis, Hypothesis Testing, Data Modelling]
-cloud_foundations: [Microsoft Azure Data Fundamentals, Azure AI Fundamentals]
-working_style: "Curious, methodical, stakeholder-focused, and committed to reliable evidence"
-career_goal: "Help teams make better decisions through trustworthy data and clear reporting"
-```
+I’m **Faria Islam**, a Junior Data Analyst based in Sheffield. I work with **SQL, Power BI, Excel and Python** to turn raw, inconsistent data into dependable reporting, practical dashboards and insight that people can use.
 
-I am a **Junior Data Analyst based in Sheffield** with project experience across operational reporting, education, student wellbeing, and entertainment data. I enjoy taking an untidy dataset through the full analysis lifecycle—**cleaning, validating, analysing, visualising, and communicating the business meaning**.
+My portfolio reflects how I approach analysis in real work: understand the question, check the quality of the data, define the metric clearly, test the result and explain what it means without unnecessary complexity.
 
-> 🌸 My portfolio is designed to show not just the final chart, but the thinking behind it: data-quality rules, reproducible code, metric definitions, stakeholder questions, and clear recommendations.
+### 🔎 What I focus on
 
-<img width="100%" src="./assets/analytics-lifecycle.svg" alt="Source, clean, validate, analyse, visualise and recommend workflow" />
+| 🧹 Data reliability | 📊 Reporting & BI | 💬 Business communication |
+|---|---|---|
+| Cleansing, validation, integrity checks and documented rules | KPI/MI reporting, Power Query, DAX, data modelling and dashboard design | Clear findings, stakeholder-friendly summaries and practical recommendations |
+
+### 🧭 How I work
+
+- **Start with the business question** before choosing a chart or technique.
+- **Make data quality visible** instead of hiding assumptions.
+- **Build reproducible analysis** with documented steps and reusable code.
+- **Communicate the decision**, not only the calculation.
+
+> 💡 I want every piece of analysis to answer three questions: **Can we trust it? What does it tell us? What should happen next?**
+
+<img width="100%" src="./assets/analytics-lifecycle.svg" alt="Animated workflow: Source, Clean, Validate, Analyse, Visualise and Recommend" />
 
 ---
 
-## ✨ Featured Portfolio Projects
+## 🚀 Featured Portfolio Projects
 
-| Project | Business focus | Tools | Live dashboard |
+| Project | Business focus | Core tools | Status |
 |---|---|---|---|
-| [📊 Operational KPI Dashboard](https://github.com/fowziafaria1234-ops/operational-kpi-dashboard) | Refreshable KPI reporting, data modelling, validation rules | Power BI concepts, DAX, Power Query, Python, Excel | [Open](https://fowziafaria1234-ops.github.io/operational-kpi-dashboard/dashboard/) |
-| [🏫 NYC School Performance Analysis](https://github.com/fowziafaria1234-ops/nyc-school-performance-analysis) | Borough-level MI reporting and data-quality investigation | Python, Pandas, NumPy, Matplotlib, Seaborn | [Open](https://fowziafaria1234-ops.github.io/nyc-school-performance-analysis/dashboard/) |
-| [🧠 Student Mental Health SQL Analysis](https://github.com/fowziafaria1234-ops/student-mental-health-sql-analysis) | Cohort analysis, reusable KPI views, privacy-aware reporting | SQL, SQLite, CTEs, joins, window functions | [Open](https://fowziafaria1234-ops.github.io/student-mental-health-sql-analysis/dashboard/) |
-| [🎬 Netflix Content Trends Analysis](https://github.com/fowziafaria1234-ops/netflix-content-trends-analysis) | Feature engineering and year-on-year content trends | Python, Pandas, Matplotlib, time-series analysis | [Open](https://fowziafaria1234-ops.github.io/netflix-content-trends-analysis/dashboard/) |
+| [📊 **Operational KPI Dashboard**](https://github.com/fowziafaria1234-ops/operational-kpi-dashboard) | Refreshable KPI reporting, star-schema modelling and data-validation rules | Power BI, DAX, Power Query, Python, Excel | [🟢 Live dashboard](https://fowziafaria1234-ops.github.io/operational-kpi-dashboard/dashboard/) |
+| [🏫 **NYC School Performance Analysis**](https://github.com/fowziafaria1234-ops/nyc-school-performance-analysis) | Borough-level MI reporting, cleansing and performance comparison | Python, Pandas, NumPy, Matplotlib, Seaborn | [🟢 Live dashboard](https://fowziafaria1234-ops.github.io/nyc-school-performance-analysis/dashboard/) |
+| 🧠 **Student Mental Health SQL Analysis** | Cohort analysis, reusable KPI views and privacy-aware reporting | SQL, SQLite, CTEs, joins, window functions | 🟡 Repository being prepared |
+| 🎬 **Netflix Content Trends Analysis** | Feature engineering and year-on-year catalogue trends | Python, Pandas, Matplotlib, trend analysis | 🟡 Repository being prepared |
 
-> **Transparency:** The original training datasets were not available for public release. These repositories are faithful portfolio reconstructions using seeded synthetic data, with the methods and capabilities described in my CV reproduced in a transparent, runnable format.
+> **Portfolio note:** Where original training data could not be shared publicly, the project repository uses clearly labelled, seeded synthetic data so the analytical process remains transparent and reproducible.
 
 ---
 
@@ -57,20 +60,22 @@ I am a **Junior Data Analyst based in Sheffield** with project experience across
 
 <div align="center">
 
-![Python](https://img.shields.io/badge/Python-881337?style=for-the-badge&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-E11D48?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-EC4899?style=for-the-badge&logo=powerbi&logoColor=white)
-![Excel](https://img.shields.io/badge/Excel-BE123C?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-9F1239?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-F43F5E?style=for-the-badge&logo=numpy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-F472B6?style=for-the-badge&logo=python&logoColor=white)
-![Azure](https://img.shields.io/badge/Microsoft_Azure-DB2777?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-881337?style=for-the-badge&logo=jupyter&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-E11D48?style=for-the-badge&logo=github&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=111827)
+![Excel](https://img.shields.io/badge/Excel-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Azure](https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 
-**Analytics capabilities:** Data cleansing · Data validation · Data quality · EDA · Statistical analysis · Hypothesis testing · KPI/MI reporting · Dashboard development · Data modelling · Requirements gathering · Stakeholder communication · GDPR awareness
+### 📌 Analytics capabilities
+
+`Data cleansing` · `Data validation` · `Data quality` · `EDA` · `Statistical analysis` · `Hypothesis testing` · `KPI/MI reporting` · `Dashboard development` · `Data modelling` · `Requirements gathering` · `Stakeholder communication` · `GDPR awareness`
 
 ---
 
@@ -91,27 +96,29 @@ I am a **Junior Data Analyst based in Sheffield** with project experience across
 
 <div align="center">
 
-### 🌸 3D Contribution Garden
+### 🌐 Contribution Map
 
-<img width="90%" src="./profile-3d-contrib/profile-night-rainbow.svg" alt="Faria Islam's 3D GitHub contribution graph" />
+<img width="92%" src="./profile-3d-contrib/profile-night-green.svg" alt="Faria Islam's 3D GitHub contribution graph" />
 
 </div>
 
-> 🌱 This GitHub portfolio has recently been launched. Activity will continue to grow as new SQL, Python, Power BI and data-analysis projects are published.
+> 🌱 This portfolio is actively growing as I publish additional SQL, Python, Power BI and data-quality projects.
 
 ---
 
-## 🎯 Currently Building
+## 🎯 Current Focus
 
-- 🔭 Expanding my portfolio with transparent, reproducible analysis projects
-- 🌱 Deepening my Power BI, SQL, Python, cloud-data, and data-governance skills
-- 🤝 Open to **Junior Data Analyst, Reporting Analyst, MI Analyst, BI Analyst, and Data Quality Analyst** opportunities
-- 💬 Happy to discuss data cleaning, KPI design, dashboard storytelling, and analytical problem-solving
+- 🔭 Publishing transparent, reproducible analysis projects
+- 🧠 Strengthening advanced SQL, Power BI and data-governance capability
+- ☁️ Expanding my Azure data and AI foundations
+- 🤝 Exploring **Junior Data Analyst, Reporting Analyst, MI Analyst, BI Analyst and Data Quality Analyst** opportunities
 
 <div align="center">
+
 <img width="100%" src="./assets/pulse-divider.svg" alt="Animated data pulse divider" />
 
-### 💗 Data becomes valuable when people can trust it, understand it, and act on it.
+### Data is useful when people can **trust it**, **understand it** and **act on it**.
 
-**Thanks for visiting my portfolio.**
+**Thank you for visiting my portfolio.**
+
 </div>
