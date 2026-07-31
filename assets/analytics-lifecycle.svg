@@ -1,34 +1,103 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260" role="img" aria-label="My analytics workflow">
-    <defs>
-      <linearGradient id="g"><stop stop-color="#EC4899"/><stop offset="1" stop-color="#E11D48"/></linearGradient>
-      <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#E11D48"/></marker>
-    </defs>
-    <rect width="100%" height="100%" rx="24" fill="#FFF7FA"/>
-    <text x="60" y="38" font-family="Segoe UI, Arial" font-size="24" font-weight="700" fill="#881337">My analytics workflow</text>
-    <path d="M165.0 112 C200.0 112, 168.0 148, 203.0 148" stroke="url(#g)" stroke-width="5" fill="none" marker-end="url(#arrow)"/><path d="M373.0 148 C408.0 148, 376.0 112, 411.0 112" stroke="url(#g)" stroke-width="5" fill="none" marker-end="url(#arrow)"/><path d="M581.0 112 C616.0 112, 584.0 148, 619.0 148" stroke="url(#g)" stroke-width="5" fill="none" marker-end="url(#arrow)"/><path d="M789.0 148 C824.0 148, 792.0 112, 827.0 112" stroke="url(#g)" stroke-width="5" fill="none" marker-end="url(#arrow)"/><path d="M997.0 112 C1032.0 112, 1000.0 148, 1035.0 148" stroke="url(#g)" stroke-width="5" fill="none" marker-end="url(#arrow)"/>
-    <g transform="translate(-5.0,70)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Source</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="0.0s" repeatCount="indefinite"/></circle>
-        </g><g transform="translate(203.0,106)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Clean</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="0.25s" repeatCount="indefinite"/></circle>
-        </g><g transform="translate(411.0,70)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Validate</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
-        </g><g transform="translate(619.0,106)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Analyse</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="0.75s" repeatCount="indefinite"/></circle>
-        </g><g transform="translate(827.0,70)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Visualise</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="1.0s" repeatCount="indefinite"/></circle>
-        </g><g transform="translate(1035.0,106)">
-          <rect width="170" height="84" rx="20" fill="#FFF7FA" stroke="#E11D48" stroke-width="3"/>
-          <text x="85" y="50" text-anchor="middle" font-family="Segoe UI, Arial" font-size="20" fill="#3F0B1D">Recommend</text>
-          <circle cx="18" cy="18" r="7" fill="#EC4899"><animate attributeName="opacity" values=".25;1;.25" dur="2s" begin="1.25s" repeatCount="indefinite"/></circle>
-        </g>
-    </svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Faria Islam's analytics workflow</title>
+  <desc id="desc">Animated workflow showing Source, Clean, Validate, Analyse, Visualise and Recommend.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="100%" stop-color="#0f2740"/>
+    </linearGradient>
+    <linearGradient id="stream" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="45%" stop-color="#2dd4bf"/>
+      <stop offset="75%" stop-color="#22c55e"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+    <filter id="glow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#94a3b8" stroke-opacity=".05"/>
+    </pattern>
+    <path id="flowPath" d="M110 195 C185 105 270 105 345 195 S505 285 580 195 S740 105 815 195 S975 285 1090 195"/>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+
+  <text x="54" y="52" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="27" font-weight="750" fill="#f8fafc">My analytics workflow</text>
+  <text x="54" y="82" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="15" fill="#94a3b8">From raw source to a decision people can act on</text>
+
+  <use href="#flowPath" fill="none" stroke="#334155" stroke-width="16" stroke-linecap="round" opacity=".45"/>
+  <use href="#flowPath" fill="none" stroke="url(#stream)" stroke-width="6" stroke-linecap="round" stroke-dasharray="10 14">
+    <animate attributeName="stroke-dashoffset" values="0;-48" dur="2.2s" repeatCount="indefinite"/>
+  </use>
+
+  <circle r="9" fill="#f8fafc" stroke="#2dd4bf" stroke-width="4" filter="url(#glow)">
+    <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
+      <mpath href="#flowPath"/>
+    </animateMotion>
+  </circle>
+
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" filter="url(#shadow)">
+    <g transform="translate(40 116)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#38bdf8" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#0c4a6e"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#e0f2fe">01</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Source</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Collect &amp; understand</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin="0s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(230 172)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#22d3ee" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#155e75"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#cffafe">02</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Clean</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Fix structure &amp; quality</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin=".45s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(420 116)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#2dd4bf" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#115e59"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#ccfbf1">03</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Validate</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Test rules &amp; integrity</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin=".9s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(610 172)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#22c55e" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#166534"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#dcfce7">04</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Analyse</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Find patterns &amp; drivers</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin="1.35s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(800 116)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#a78bfa" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#5b21b6"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#ede9fe">05</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Visualise</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Make insight accessible</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin="1.8s" repeatCount="indefinite"/>
+    </g>
+
+    <g transform="translate(990 172)">
+      <rect width="170" height="116" rx="20" fill="#0b2238" stroke="#f59e0b" stroke-width="2"/>
+      <circle cx="34" cy="34" r="20" fill="#92400e"/><text x="34" y="41" text-anchor="middle" font-size="19" fill="#fef3c7">06</text>
+      <text x="24" y="78" font-size="21" font-weight="700" fill="#f8fafc">Recommend</text>
+      <text x="24" y="101" font-size="13" fill="#94a3b8">Support the decision</text>
+      <animate attributeName="opacity" values=".82;1;.82" dur="3s" begin="2.25s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g transform="translate(50 316)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13">
+    <circle cx="7" cy="0" r="7" fill="#2dd4bf"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="24" y="5" fill="#cbd5e1">Reliable data</text>
+    <circle cx="160" cy="0" r="7" fill="#38bdf8"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" begin=".4s" repeatCount="indefinite"/></circle>
+    <text x="177" y="5" fill="#cbd5e1">Clear metrics</text>
+    <circle cx="310" cy="0" r="7" fill="#f59e0b"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" begin=".8s" repeatCount="indefinite"/></circle>
+    <text x="327" y="5" fill="#cbd5e1">Actionable insight</text>
+  </g>
+</svg>
