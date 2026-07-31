@@ -1,46 +1,94 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Faria Islam: Junior Data Analyst · SQL · Power BI · Excel · Python">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Faria Islam — Junior Data Analyst</title>
+  <desc id="desc">Professional animated data analytics banner in navy, teal, cyan and gold.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#3F0B1D"/>
-      <stop offset="45%" stop-color="#881337"/>
-      <stop offset="100%" stop-color="#111827"/>
-      <animate attributeName="x1" values="0;1;0" dur="10s" repeatCount="indefinite"/>
+      <stop offset="0%" stop-color="#06121f"/>
+      <stop offset="50%" stop-color="#0b2033"/>
+      <stop offset="100%" stop-color="#102a43"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#EC4899"/>
-      <stop offset="100%" stop-color="#E11D48"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="55%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
     </linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f2b42" stop-opacity=".96"/>
+      <stop offset="100%" stop-color="#071727" stop-opacity=".96"/>
+    </linearGradient>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#5eead4" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#020617" flood-opacity=".55"/>
+    </filter>
+    <clipPath id="round"><rect x="0" y="0" width="1200" height="320" rx="30"/></clipPath>
   </defs>
-  <rect width="100%" height="100%" rx="28" fill="url(#bg)"/>
-  <g opacity="0.22" stroke="#EC4899" fill="none">
-    <path d="M0 230 C140 170 220 250 360 170 S650 90 790 165 S1040 250 1200 90" stroke-width="4">
-      <animate attributeName="d" dur="8s" repeatCount="indefinite"
-        values="M0 230 C140 170 220 250 360 170 S650 90 790 165 S1040 250 1200 90;
-                M0 210 C140 250 220 150 360 210 S650 220 790 120 S1040 70 1200 180;
-                M0 230 C140 170 220 250 360 170 S650 90 790 165 S1040 250 1200 90"/>
+
+  <g clip-path="url(#round)">
+    <rect width="1200" height="320" fill="url(#bg)"/>
+    <rect width="1200" height="320" fill="url(#grid)"/>
+
+    <circle cx="105" cy="55" r="95" fill="#2dd4bf" opacity=".08">
+      <animate attributeName="r" values="82;110;82" dur="8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1110" cy="270" r="115" fill="#38bdf8" opacity=".07">
+      <animate attributeName="r" values="100;132;100" dur="9s" repeatCount="indefinite"/>
+    </circle>
+
+    <path d="M0 262 C150 210 250 275 390 220 S650 120 800 190 S1040 250 1200 118"
+          fill="none" stroke="#38bdf8" stroke-opacity=".18" stroke-width="3">
+      <animate attributeName="d" dur="10s" repeatCount="indefinite"
+        values="M0 262 C150 210 250 275 390 220 S650 120 800 190 S1040 250 1200 118;
+                M0 235 C160 285 260 185 400 235 S650 250 815 150 S1040 95 1200 175;
+                M0 262 C150 210 250 275 390 220 S650 120 800 190 S1040 250 1200 118"/>
     </path>
-    <g stroke-width="2">
-      <line x1="70" y1="70" x2="1130" y2="70"/><line x1="70" y1="120" x2="1130" y2="120"/>
-      <line x1="70" y1="170" x2="1130" y2="170"/><line x1="70" y1="220" x2="1130" y2="220"/>
+
+    <g transform="translate(64 60)">
+      <text x="0" y="58" fill="#f8fafc" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="56" font-weight="750" letter-spacing=".2">Faria Islam</text>
+      <text x="2" y="101" fill="#99f6e4" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="25" font-weight="600">Junior Data Analyst</text>
+      <text x="2" y="139" fill="#cbd5e1" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21">SQL  •  Power BI  •  Excel  •  Python</text>
+      <rect x="2" y="162" width="520" height="5" rx="3" fill="url(#accent)">
+        <animate attributeName="width" values="150;520;150" dur="7s" repeatCount="indefinite"/>
+      </rect>
+      <text x="2" y="206" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17">Data Quality  •  KPI Dashboards  •  Insight Reporting</text>
+      <text x="2" y="237" fill="#fbbf24" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="16" font-weight="650">Microsoft Azure Data &amp; AI Certified  ·  Sheffield, UK</text>
     </g>
-  </g>
-  <g opacity="0.4" fill="#EC4899" filter="url(#soft)">
-    <circle cx="100" cy="70" r="35"><animate attributeName="r" values="25;45;25" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="1070" cy="225" r="45"><animate attributeName="r" values="35;55;35" dur="5s" repeatCount="indefinite"/></circle>
-  </g>
-  <g transform="translate(70,72)">
-    <text x="0" y="55" fill="#fff" font-family="Segoe UI, Arial, sans-serif" font-size="54" font-weight="700">Faria Islam</text>
-    <text x="2" y="103" fill="#FBCFE8" font-family="Segoe UI, Arial, sans-serif" font-size="25">Junior Data Analyst · SQL · Power BI · Excel · Python</text>
-    <rect x="0" y="132" width="510" height="7" rx="4" fill="url(#line)">
-      <animate attributeName="width" values="130;510;130" dur="6s" repeatCount="indefinite"/>
-    </rect>
-  </g>
-  <g transform="translate(900,62)" fill="none" stroke="#FCE7F3" opacity="0.8">
-    <rect x="0" y="88" width="44" height="80" rx="8" stroke-width="4"/>
-    <rect x="64" y="48" width="44" height="120" rx="8" stroke-width="4"/>
-    <rect x="128" y="15" width="44" height="153" rx="8" stroke-width="4"/>
-    <path d="M0 70 L70 38 L142 4 L205 40" stroke="#EC4899" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="0" cy="70" r="6" fill="#EC4899"/><circle cx="70" cy="38" r="6" fill="#EC4899"/><circle cx="142" cy="4" r="6" fill="#EC4899"/><circle cx="205" cy="40" r="6" fill="#EC4899"/>
+
+    <g transform="translate(778 45)" filter="url(#shadow)">
+      <rect width="360" height="230" rx="24" fill="url(#panel)" stroke="#2dd4bf" stroke-opacity=".25"/>
+      <text x="28" y="37" fill="#94a3b8" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="13" letter-spacing="1.6">ANALYTICS SNAPSHOT</text>
+
+      <g transform="translate(28 60)">
+        <line x1="0" y1="120" x2="300" y2="120" stroke="#334155"/>
+        <line x1="0" y1="80" x2="300" y2="80" stroke="#334155" stroke-dasharray="4 7"/>
+        <line x1="0" y1="40" x2="300" y2="40" stroke="#334155" stroke-dasharray="4 7"/>
+
+        <g fill="#2dd4bf">
+          <rect x="10" y="78" width="28" height="42" rx="5"><animate attributeName="y" values="88;72;88" dur="3s" repeatCount="indefinite"/><animate attributeName="height" values="32;48;32" dur="3s" repeatCount="indefinite"/></rect>
+          <rect x="58" y="54" width="28" height="66" rx="5"><animate attributeName="y" values="64;48;64" dur="3.5s" repeatCount="indefinite"/><animate attributeName="height" values="56;72;56" dur="3.5s" repeatCount="indefinite"/></rect>
+          <rect x="106" y="67" width="28" height="53" rx="5"><animate attributeName="y" values="77;59;77" dur="4s" repeatCount="indefinite"/><animate attributeName="height" values="43;61;43" dur="4s" repeatCount="indefinite"/></rect>
+          <rect x="154" y="34" width="28" height="86" rx="5"><animate attributeName="y" values="46;26;46" dur="3.7s" repeatCount="indefinite"/><animate attributeName="height" values="74;94;74" dur="3.7s" repeatCount="indefinite"/></rect>
+          <rect x="202" y="47" width="28" height="73" rx="5"><animate attributeName="y" values="57;39;57" dur="4.2s" repeatCount="indefinite"/><animate attributeName="height" values="63;81;63" dur="4.2s" repeatCount="indefinite"/></rect>
+          <rect x="250" y="18" width="28" height="102" rx="5" fill="#38bdf8"><animate attributeName="y" values="30;10;30" dur="3.2s" repeatCount="indefinite"/><animate attributeName="height" values="90;110;90" dur="3.2s" repeatCount="indefinite"/></rect>
+        </g>
+
+        <polyline points="24,82 72,63 120,70 168,40 216,51 264,22" fill="none" stroke="#f59e0b" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <g fill="#fbbf24" filter="url(#glow)">
+          <circle cx="24" cy="82" r="5"/><circle cx="72" cy="63" r="5"/><circle cx="120" cy="70" r="5"/>
+          <circle cx="168" cy="40" r="5"/><circle cx="216" cy="51" r="5"/><circle cx="264" cy="22" r="5"/>
+        </g>
+      </g>
+
+      <g transform="translate(28 198)" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12">
+        <rect width="88" height="22" rx="11" fill="#0f766e"/><text x="44" y="15" text-anchor="middle" fill="#ecfeff">DATA QUALITY</text>
+        <rect x="98" width="82" height="22" rx="11" fill="#0369a1"/><text x="139" y="15" text-anchor="middle" fill="#f0f9ff">KPI DESIGN</text>
+        <rect x="190" width="112" height="22" rx="11" fill="#92400e"/><text x="246" y="15" text-anchor="middle" fill="#fffbeb">CLEAR INSIGHT</text>
+      </g>
+    </g>
   </g>
 </svg>
