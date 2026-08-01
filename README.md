@@ -49,7 +49,7 @@ My portfolio reflects how I approach analysis in real work: understand the quest
 |---|---|---|---|
 | [📊 **Operational KPI Dashboard**](https://github.com/fowziafaria1234-ops/operational-kpi-dashboard) | Refreshable KPI reporting, star-schema modelling and data-validation rules | Power BI, DAX, Power Query, Python, Excel | [🟢 Live dashboard](https://fowziafaria1234-ops.github.io/operational-kpi-dashboard/dashboard/) |
 | [🏫 **NYC School Performance Analysis**](https://github.com/fowziafaria1234-ops/nyc-school-performance-analysis) | Borough-level MI reporting, cleansing and performance comparison | Python, Pandas, NumPy, Matplotlib, Seaborn | [🟢 Live dashboard](https://fowziafaria1234-ops.github.io/nyc-school-performance-analysis/dashboard/) |
-| 🧠 **Student Mental Health SQL Analysis** | Cohort analysis, reusable KPI views and privacy-aware reporting | SQL, SQLite, CTEs, joins, window functions | 🟡 Repository being prepared |
+| [🧠 Student Mental Health SQL Analysis](https://github.com/fowziafaria1234-ops/student-mental-health-sql-analysis) | Cohort analysis, reusable KPI views and privacy-aware reporting | SQL, SQLite, CTEs, joins, window functions | [🟢 Live dashboard](https://fowziafaria1234-ops.github.io/student-mental-health-sql-analysis/dashboard/) |
 | 🎬 **Netflix Content Trends Analysis** | Feature engineering and year-on-year catalogue trends | Python, Pandas, Matplotlib, trend analysis | 🟡 Repository being prepared |
 
 > **Portfolio note:** Where original training data could not be shared publicly, the project repository uses clearly labelled, seeded synthetic data so the analytical process remains transparent and reproducible.
